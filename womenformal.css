@@ -1,0 +1,53 @@
+body {
+    background: url(/menbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    
+    background-color: rgb(2, 2, 15);
+    font-family: 'Alegreya SC', serif;
+
+    /* font-style: gre; */
+}
+.p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+.p img{
+    width: 500px;
+    height: 880px;
+    margin: 2px;
+}
+a{
+    text-decoration: none;
+    padding: 34px 24px;
+    color: rgb(211, 174, 82); 
+    font-size: 30px;
+}
+.left img {
+    width: 70px;
+}
+
+
+.left  {
+    display: inline;
+}
+
+.home .left li a {
+    color: rgb(211, 174, 82);
+    display: inline-block;
+    text-decoration: none; 
+    font-size: 30px;
+    width: 36%;
+    /* margin: -100px 500px;   */
+    text-align: center;
+    /* margin: auto auto; */
+}
+
+.home .left li {
+    text-align: center;
+}

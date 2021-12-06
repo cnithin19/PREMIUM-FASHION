@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(/zayn_malik_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 2, 15);
+    font-family: 'Alegreya SC', serif;
+    
+    /* font-style: gre; */
+}
+.left {
+    display: inline;
+}
+
+.left img {
+    width: 70px;
+}
+
+header .head {
+    display: inline;
+}
+
+header .head h1 {
+    display: inline;
+}
+
+header .head h1 span {
+    text-align: center;
+    padding-left: 560px;
+}
+
+.navbar {
+    display: inline;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar1 {
+    display: inline;
+}
+
+.navbar1 li {
+    display: inline-block;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+.navbar1 li a {
+    text-decoration: none;
+    padding: 15px 10px;
+    
+}
+
+.navbar li a.active {
+    color: rgb(211, 174, 82); 
+    border: 2px solid gold;  
+    border-radius: 100px;
+    margin: 2px 2px;
+    /* cursor: pointer; */
+}
+
+.navbar1 li a.active {
+    color: rgb(211, 174, 82); 
+    border: 2px solid gold;  
+    border-radius: 100px;
+    margin: 2px 2px;
+    /* padding-top: 100px; */
+    /* cursor: pointer; */
+}
+
+.mid {
+    display: block;
+    position: relative;
+    width: 36%;
+    top: 50px;
+    padding-left: 120px;
+    margin: auto;
+    min-height: calc(100vh - 678 - 464px);
+}
+
+.gen {
+    display: block;
+    position: relative;
+    width: 36%;
+    top: 50px;
+    padding-left: 120px;
+    margin: auto;
+    min-height: calc(100vh - 678 - 464px);
+}
+
+.bottom a {
+    text-decoration: none;
+    padding: 34px 24px;
+    color: rgb(211, 174, 82); 
+}
+
+footer {
+    text-align: center;
+    /* margin: 100px 100px; */
+}
+
+.bottom a div {
+    text-align: center;
+    height: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    margin: 10px 10px;
+}
+
+
+li {
+    color: rgb(211, 174, 82);
+}
+
+.about {
+    color: rgb(211, 174, 82);
+    margin: 50px 100px;
+    position: relative;
+    top: 100px;
+}
+
+/* .about  {
+    
+} */
+
+.footer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 200px;
+}
+
+header .head h1 {
+    text-align: center;
+    color: rgb(192, 152, 52);
+}
+
+.mid .navbar a:hover {
+    background-color: rgb(211, 174, 82);
+    color: black;
+}

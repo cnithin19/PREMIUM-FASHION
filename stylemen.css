@@ -1,0 +1,88 @@
+body {
+    background: url(/menbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 2, 15);
+    font-family: 'Alegreya SC', serif;
+    /* font-style: gre; */
+    
+}
+.left img {
+    width: 70px;
+}
+
+/* .navbar {
+    display: inline;
+} */
+
+.navbar li {
+    font-size: 35px;
+    list-style: none;
+    padding: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 34px 24px;
+}
+
+.navbar li a.active {
+    color: rgb(211, 174, 82);   
+}
+
+.home .left li {
+    list-style: none;
+}
+
+.left  {
+    display: inline;
+}
+
+.home .left li a {
+    color: rgb(211, 174, 82);
+    text-decoration: none; 
+    display: block;
+    font-size: 30px;
+    width: 36%;
+    margin: -80px 150px;  
+}
+
+/* .left {
+    text-decoration: none;
+} */
+
+.mid {
+    display: block;
+    color: rgb(211, 174, 82);
+    width: 36%;
+    margin: 150px auto;
+    min-height: calc(100vh - 220.23px - 64.8px);
+}
+
+/* .navbar li a#active1 {
+    
+} */
+
+.bottom a {
+    text-decoration: none;
+    padding: 34px 24px;
+    color: rgb(211, 174, 82); 
+    
+}
+
+footer {
+    text-align: center;
+}
+
+.bottom a div {
+    text-align: center;
+    height: 100%;
+    /* position: fixed; */
+    bottom: 0;
+}
+
+li {
+    color: gold;
+}

@@ -1,0 +1,53 @@
+<html>
+<title> Premium Fashion</title>
+<head>
+    <link rel="stylesheet" href="/formalstyle.css">
+    <link rel="icon" href="/logo222.jpg" type="image/icon type">
+<script type = "text/javascript">
+function Checkcapital(val) {
+if(val == "Black")
+	document.getElementById("res").innerHTML = "White , Dark Brown , Light Jeans ";
+if(val == "White")
+	document.getElementById("res").innerHTML = "Blue, Black ";
+if(val == "Green")
+	document.getElementById("res").innerHTML = "Black , Blue , Grey , orange , yellow";
+if(val == "Red")
+	document.getElementById("res").innerHTML = "White , Black , light blue , Semi Black ,Grey";
+if(val == "Grey")
+	document.getElementById("res").innerHTML = "Black , White , Red , Blue"  
+ if(val == "Light Blue")
+	document.getElementById("res").innerHTML = "Blue, Black , Pink, Red , White";
+ if(val == "Brown")
+	document.getElementById("res").innerHTML = "Biege, White , Black , Orange";
+}
+</script>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="/logo222.jpg" alt="">
+        </div>
+        <div class="home">
+            <ul class="left">
+                <li><a  id="active1" href="index.html">HOME</a></li>
+            </ul>
+        </div>
+    </header>
+    <h1 style="color: gold; text-align: center; padding: 25PX;">Premium Fashion</h1>
+    <center>
+<label style="color: gold; font-size: 25px; ">Choose a colour :  </label>
+ <select name = "city" onchange = "Checkcapital (this.value);">
+	<option> Select a Colour </option>
+	<option value = "Black">Black</option>
+	<option value = "White">White</option>
+	<option value = "Green">Green</option>
+	<option value = "Red">Red</option>
+	<option value = "Light Blue">Light Blue</option>
+    <option value = "Brown">Brown</option>
+    <option value = "Grey">Grey</option>
+</select></center>
+<font color = "gold">
+<h1 style="text-align: center;" id = "res"></h1>
+</font>
+</body>
+</html>
